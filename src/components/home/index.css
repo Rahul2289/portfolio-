@@ -1,0 +1,43 @@
+.Home-container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 100%;
+    background: #e52d27; 
+background: -webkit-linear-gradient(to right, #b31217, #e52d27); 
+background: linear-gradient(to right, #b31217, #e52d27); 
+}
+.home-image{
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    top: 10%;
+    bottom: 5%;
+}
+.home-info{
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    
+}
+.home-info h2{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 48px;
+}
+@media screen and (max-width: 600px)  {
+    .home-image{
+        width: 160px;
+        height: 160px;
+       top: 20%;
+    }
+    .home-info{
+        position: absolute;
+        top: 30%;
+    }
+    .home-info h2{
+        font-size: 18px;
+    }
+   .Home-container{
+       height: 250px;
+   }
+}

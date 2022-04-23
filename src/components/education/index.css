@@ -1,0 +1,67 @@
+.Education-container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
+}
+ .Education-container img{
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    height: 100%;
+}
+.slider-container{
+    position: absolute;
+    width: 60%;
+    color: white;
+    top: 35%;
+    left: 20%;
+}
+.Education-container h2{
+    position: absolute;
+    top: -10px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 60px;
+    left: 40%;
+}
+.slider-wrapper{
+    position: absolute;
+    top: -20px;
+    height: 300px;
+    width: 100%;
+    font-size: 25px;
+    padding: 5px;
+}
+.slider-wrapper div {
+    position: relative;
+    left:15px;
+}
+.slider-wrapper span{
+    font-weight: 700;
+}
+@media screen and (max-width: 600px)  {
+    .Education-container h2{
+        left: 25%;
+        font-size: 28px;
+        top: -10px;
+    }
+    .Education-container{
+        height: 220px;
+    }
+    .Education-container img{
+        height: 90%;
+    }
+    .slider-wrapper{
+        font-size: 10px;
+        height: 100px;
+        top: -10px;
+    }
+    .slider-wrapper div{
+        left: 0;
+        height: 100px;
+        padding-left: 2px;
+    }
+    .slider-wrapper span{
+        display: none;
+    }
+}

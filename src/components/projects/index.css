@@ -1,0 +1,106 @@
+.Projects-container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 100%;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
+   
+}
+.Projects-container img{
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    height: 90%;
+}
+.Projects-container h2{
+    position: absolute;
+    top: -50px;
+    left: 40%;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 60px;
+    text-align: center;
+}
+.projects-slider-container{
+    position: absolute;
+    width: 60%;
+    color: white;
+    top: 25%;
+    left: 20%;
+    
+    
+    
+}
+.projects-slider-wrapper{
+    height: 200px;
+    width: 100%;
+    font-size: 18px;
+    padding: 5px;
+}
+ .project-list{
+    width: 100%;
+    height: 200px;
+
+}
+.project-list h1{
+    position: relative;
+    top: -35px;
+    left: 35%;
+}
+.project-list img{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: -40%;
+    left: 40px;
+}
+
+.btn-container{
+    position: relative;
+    top: -80%;
+    left: 40%;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+button{
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+}
+@media screen and (max-width:600px) {
+    .Projects-container{
+        height: 250px;
+    }
+    .Projects-container h2{
+        font-size: 20px;
+        top: -5px;
+    }
+    .projects-slider-container{
+        height: 100px;
+    }
+    .projects-slider-wrapper{
+        height: 100%;
+        font-size: 10px;
+    }
+    .project-list{
+        height: 100px;
+    }
+    .project-list h1{
+        top: 0;
+    }
+    .project-list img{
+        width: 50px;
+        height: 50px;
+        left: 10px;
+        top: -30%;
+    }
+    .btn-container{
+        top: -50%;
+        width: 100px;
+    }
+    .btn-container button{
+        height: auto;
+        width: auto;
+    }
+}
